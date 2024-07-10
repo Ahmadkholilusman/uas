@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Helm</title>
+    <style>
+     body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Menghilangkan scroll horizontal */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Transparan untuk efek overlay */
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Menempatkan di atas hero */
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://i.pinimg.com/736x/56/74/fc/5674fcf6ce38f19f530bbfe9295219bd.jpg') no-repeat center center/cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 200px 0; /* Menyesuaikan dengan konten di tengah */
+    height: calc(100vh - 60px); /* Menyesuaikan tinggi hero dengan tinggi header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0; /* Menghilangkan margin bawah hero */
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ff9900;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    margin-top: -4px; /* Menyesuaikan posisi footer agar berdekatan dengan gambar */
+}
+
+footer p {
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Toko Helm Terbaik</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Helm Berkualitas untuk Keselamatan Anda</h2>
+            <p>Kami menyediakan berbagai jenis helm dengan standar keselamatan tinggi.</p>
+            <a href="#products" class="btn">Lihat Selengkapnya</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Toko Helm. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
